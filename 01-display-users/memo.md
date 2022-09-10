@@ -11,3 +11,19 @@
   ```
     $locationProvider.hashPrefix('');
   ```
+- add pages
+  - `pages/page1.html`
+  - `pages/page2.html`
+
+## add controller
+
+- add controller
+- connect controller with page via route
+
+## fetch users
+
+- add resource package
+
+## add detail
+
+-
