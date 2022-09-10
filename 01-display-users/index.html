@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="app">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://code.angularjs.org/1.8.2/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.8.2/angular-route.min.js"></script>
+    <script src="./app.js"></script>
     <title>Document</title>
   </head>
   <body>
-    <h1>Test</h1>
-    <input type="text" ng-model="userId" />
-    <p>{{userId}}</p>
+    <a href="#/search">Search</a>
+    <a href="#/result">Result</a>
+    <div ng-view></div>
   </body>
 </html>
